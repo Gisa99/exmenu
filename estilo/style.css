@@ -1,0 +1,74 @@
+@charset "UTF-8";
+
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+html,body{
+    background-color: lightcoral;
+
+}
+
+header {
+    background-color: coral;
+
+}
+header > h1{
+    padding: 10px;
+    text-align: center;
+}
+
+span#burguer{
+    background-color: rgb(119, 60, 39);
+   color: white;
+   display: block;
+   text-align: center;
+   padding: 10px;
+   cursor: pointer;
+}
+span#burguer:hover{
+    background-color: white;
+    color: rgb(119, 60, 39);
+}
+
+menu{
+    display: none;
+}
+
+menu > li {
+    list-style-type: none;
+}
+menu a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+    background-color: rgb(211, 89, 45);
+    color: white;
+    border-top: 2px solid black;
+}
+
+menu a:hover{
+    background-color: rgb(252, 152, 116);
+}
+
+main{
+    width: 90vw;
+    background-color: white;
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px; 
+}
+
+article h2{
+    padding-bottom: 10px;
+}
+
+article > p{
+    text-align:justify ;
+    margin-bottom: 20px;
+    text-indent: 10px;
+}
